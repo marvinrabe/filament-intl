@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace MarvinRabe\FilamentIntl;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentIntlPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-intl';
     }
 
     public function register(Panel $panel): void
